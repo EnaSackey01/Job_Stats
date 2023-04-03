@@ -43,3 +43,4 @@ tot_merge.to_csv("Data/Joined_data.csv", index = False)
 
 print(tot_merge)
 
+
