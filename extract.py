@@ -41,4 +41,5 @@ tot_merge = pd.merge(m1, skills_df, how = "inner", on = ["id"])
 #Writing this join dataframe to the "Data" folder
 tot_merge.to_csv("Data/Joined_data.csv", index = False)
 
+print(tot_merge)
 
